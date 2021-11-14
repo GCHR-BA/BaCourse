@@ -20,3 +20,5 @@
   * [Case When](sql-case-when.md)
   * [Window Functions](sql-window-functions.md)
 * Data Visualization
+* Business Cases
+  * [Approach Questions](Business-Questions.md)
