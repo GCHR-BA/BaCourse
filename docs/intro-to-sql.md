@@ -134,28 +134,3 @@ There is one data type that is not defined for fields that can show up in any of
 3. Databases are very similar to having multiple spreadsheets but the jargon is slightly different
 4. There are specific data types for each field in a database
 
-
-## SQL
-
-SQL might seem intimidating but it’s really fairly easy to understand. SQL stands for Structured Query Language and simply put, it’s a search language for you to instruct a database about what information you’d like retrieved from it.
-
-Just think of it as an advanced, really structured google search. For example in Google you might ask something like
-
-Google Example Question
-
-![](assets/2021-11-14-13-01-01.png)
-
-And in SQL, if you had a database with that information in it, the equivalent question might be answered with something like
-
-SELECT age FROM presidents WHERE name = 'Barack Obama';
-
-Don’t worry about understanding the above query yet, you’ll get that in no time.
-
-## Tables - for those familiar with Excel
-
-Databases organize data in different tables. I’m assuming that most people reading this are familiar with Excel or some other Spreadsheet software. This makes it easier to explain what a table is as a Table is basically just a Spreadsheet of data. It has columns with names of fields, and then rows holding the actual data.
-
-![](assets/2021-11-14-13-01-58.png)
-
-In this tutorial we’ll be using an example data set that has a bunch of information on tracks, albums and artists in a music collection. Most databases architects will typically split those items into their own tables rather than group them all in one. You’ll learn all about linking them together when we get to the section on Table Relationships and JOINs.
-
